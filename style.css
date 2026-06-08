@@ -1190,6 +1190,56 @@ color: #555;
   border-radius:15px;
 }
 
+/* CERTIFICATE */
+
+.certificate-modal{
+    display:none;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,0.9);
+
+    z-index:9999;
+
+    overflow:auto;
+}
+
+.certificate-content{
+    max-width:1200px;
+
+    margin:50px auto;
+
+    padding:20px;
+}
+
+.certificate-content img{
+    width:100%;
+
+    margin-bottom:30px;
+
+    border-radius:12px;
+
+    background:white;
+}
+
+.close-modal{
+    position:fixed;
+
+    top:20px;
+    right:40px;
+
+    color:white;
+
+    font-size:50px;
+
+    cursor:pointer;
+}
 
 /* NEWS INTRO */
 

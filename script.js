@@ -149,3 +149,21 @@ window.addEventListener("load", function () {
   console.log("Website Loaded Successfully");
 
 });
+
+// ==============================
+// CERTIFICATE MODAL
+// ==============================
+
+function openCertificates(){
+
+  document.getElementById("certificateModal")
+          .style.display = "block";
+
+}
+
+function closeCertificates(){
+
+  document.getElementById("certificateModal")
+          .style.display = "none";
+
+}

@@ -184,27 +184,44 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
         <div class="mpd-card">
 
-          <i class="fa-solid fa-award"></i>
+    <i class="fa-solid fa-award"></i>
 
-          <h3>School Recognition</h3>
+    <h3>School Recognition</h3>
 
-          <p>
-               The institution is recognised by the Government of
-              Andhra Pradesh and follows the prescribed educational
-              standards and regulations.
-          </p>
+    <p>
+        The institution is recognised by the Government of
+        Andhra Pradesh and follows the prescribed educational
+        standards and regulations.
+    </p>
 
-          <a href="images/rec.jpeg"
-           target="_blank"
-           class="view-btn">
-           View Certificate
-          </a>
+    <button class="view-btn" onclick="openCertificates()">
+        View Certificates
+    </button>
+    <br>
 
-        </div>
+    <button class="view-btn" onclick="openCertificates()">
+    </button>
+
+</div>
+
+</div>
+</section>
+<script src="script.js"></script>
+
+<div id="certificateModal" class="certificate-modal">
+
+    <span class="close-modal" onclick="closeCertificates()">
+        &times;
+    </span>
+
+    <div class="certificate-content">
+
+        <img src="images/rec.jpeg" alt="Certificate 1">
+
+        <img src="images/rec1.jpeg" alt="Certificate 2">
 
     </div>
 
-</section>
-
+</div>
 </body>
 </html>
