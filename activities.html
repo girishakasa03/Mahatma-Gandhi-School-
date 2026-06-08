@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Activities</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+  <ul class="menu">
+
+    <li><a href="index.html">Home</a></li>
+
+    <li>
+
+      <a href="#">About</a>
+
+      <ul class="dropdown">
+
+        <li><a href="about-school.html">About School</a></li>
+
+        <li><a href="management.html">Management</a></li>
+
+        <li><a href="mpd.html">Mandatory Public Disclosure</a></li>
+
+      </ul>
+
+    </li>
+
+    <li>
+
+      <a href="#">Academics</a>
+
+      <ul class="dropdown">
+
+        <li><a href="academics.html">Academics</a></li>
+
+        <li><a href="results.html">Results</a></li>
+
+      </ul>
+
+    </li>
+
+    <li><a href="activities.html">Activities</a></li>
+
+    <li><a href="facilities.html">Facilities</a></li>
+
+    <li><a href="newsandevents.html">News and Events</a></li>
+
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+</nav>
+
+<!-- BANNER -->
+
+<section class="page-banner">
+
+  <h1>Student Activities</h1>
+
+</section>
+
+<!-- ACTIVITIES -->
+
+<section class="activities-section">
+
+  <h2 class="section-title">Co-Curricular Activities</h2>
+
+  <div class="activities-grid">
+
+    <div class="activity-card" onclick="showActivity('cultural')">
+
+      <img src="images/activity1.jpg" alt="Cultural Programs">
+
+      <h3>Cultural Programs</h3>
+
+      <p>
+        Students actively participate in cultural celebrations,
+        dance and music performances.
+      </p>
+
+    </div>
+
+    <div class="activity-card" onclick="showActivity('sports')">
+
+      <img src="images/activity2.jpg" alt="Sports Activities">
+
+      <h3>Sports Activities</h3>
+
+      <p>
+        Physical education and sports activities help students
+        stay active and disciplined.
+      </p>
+
+    </div>
+
+    <div class="activity-card" onclick="showActivity('events')">
+
+      <img src="images/activity3.jpg" alt="School Events">
+
+      <h3>School Events</h3>
+
+      <p>
+        Various competitions and events are conducted to encourage
+        creativity and confidence.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALLERY SECTION -->
+
+
+
+  <div class="gallery-grid" id="galleryGrid">
+
+  </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+
+</html>
